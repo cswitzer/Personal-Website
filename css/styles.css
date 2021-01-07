@@ -18,14 +18,11 @@ h1 {
 
 .middle-container {
   background-color: #e7e7de;
-  width: 200px;
-  height: 200px;
 }
 
 .bottom-container {
-  background-color: #008891;
-  width: 200px;
-  height: 200px;
+  /*background-color: #008891;*/
+  margin-top: 10px;
 }
 
 .pro {
@@ -42,6 +39,12 @@ h1 {
   position: absolute;
   bottom: 300px;
   left: 300px;
+}
+
+.profile-pic {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 1000px) {
