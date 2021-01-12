@@ -29,34 +29,53 @@ h1 {
   text-decoration: underline;
 }
 
+/*
 .top-cloud {
   position: absolute;
-  right: 300px;
+  right: 100px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
   bottom: 300px;
-  left: 300px;
+  left: 100px;
 }
-
+*/
 .profile-pic {
   margin-top: 20px;
   width: 200px;
   height: 200px;
 }
 
-@media only screen and (max-width: 1000px) {
+.contact-me {
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 830px) {
   .top-cloud {
     position: absolute;
-    right: 200px;
+    right: 220px;
     top: 50px;
   }
 
   .bottom-cloud {
     position: absolute;
     bottom: 300px;
-    left: 200px;
+    left: 220px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .top-cloud {
+    position: absolute;
+    right: 33%;
+    top: 50px;
+  }
+
+  .bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 33%;
   }
 }
