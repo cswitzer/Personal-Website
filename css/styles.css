@@ -18,7 +18,7 @@ h2 {
   font-size: 2em;
 }
 
-#hello_header {
+#hello-header {
   color: black;
 }
 
@@ -43,8 +43,36 @@ h3 {
   margin-top: 10px;
 }
 
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px;
+  text-align: left;
+  line-height: 1.5;
+}
+
 .pro {
   text-decoration: underline;
+}
+
+.web-img {
+  display: block;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.game-img {
+  display: block;
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.chinese-img {
+  display: block;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
 }
 
 /*
@@ -95,5 +123,33 @@ h3 {
     position: absolute;
     bottom: 300px;
     left: 33%;
+  }
+
+  .web-img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .game-img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-left: 15px;
+  }
+
+  .chinese-img {
+    display: block;
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 15px;
+  }
+
+  .bottom-hr {
+    margin-top: 90px;
   }
 }
